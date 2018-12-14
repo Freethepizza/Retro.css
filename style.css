@@ -1,0 +1,19 @@
+/*
+RETRO.CSS
+*/
+
+@import "icons.css";
+@import "fonts.css";
+
+
+/*
+production: https://rawcdn.githack.com/Freethepizza/bitone/fc4a1524ece86d27a70f434c2cb8d405c8bac50b/Bitone.woff?raw=true
+
+dev: https://rawcdn.githack.com/Freethepizza/bitone/fc4a1524ece86d27a70f434c2cb8d405c8bac50b/Bitone.woff?raw=true
+*/
+
+
+.bitone{
+font-family: bitone; 
+letter-spacing: 2.5px;
+}

@@ -1,0 +1,23 @@
+/*icon list*/
+.gh {content: url(fnt/test.svg)}
+.tw {content: url(fnt/test2.svg)}
+.fb {content: url(fnt/test3.svg)}
+.yt {content: url(fnt/test4.svg)}
+.nes {content: url(fnt/test5.svg)}
+.fam {content: url(fnt/test6.svg)}
+.snesa {content: url(fnt/test7.svg)}
+.snesb {content: url(fnt/test8.svg)}
+.heart {content: url(fnt/test9.svg)}
+.heartb {content: url(fnt/test12.svg)}
+.star {content: url(fnt/test10.svg)}
+.starb {content: url(fnt/test13.svg)}
+.like {content: url(fnt/test11.svg)}
+.likeb {content: url(fnt/test14.svg)}
+/*icon list*/
+
+/*icon sizing*/
+.xs {width: 16px}
+.sm {width: 24px;}
+.lg {width: 36px;}
+.xl {width: 48px;}
+/*icon sizing*/
