@@ -1,0 +1,52 @@
+@keyframes stroke {
+    0% {
+        text-shadow: -1px -1px 0 green, 1px -1px 0 green, -1px 1px 0 green, 1px -1px 0 green;
+    }
+    25% {
+        text-shadow: -1px -1px 0 blue, 1px -1px 0 blue, -1px 1px 0 blue, 1px -1px 0 blue;
+    }
+    50% {
+        text-shadow: -1px -1px 0 #eee, 1px -1px 0 #eee, -1px 1px 0 #eee, 1px -1px 0 #eee;
+    }
+    75% {
+        text-shadow: -1px -1px 0 red, 1px -1px 0 red, -1px 1px 0 red, 1px -1px 0 red;
+    }
+    100% {
+        text-shadow: -1px -1px 0 #ff0, 1px -1px 0 #ff0, -1px 1px 0 #ff0, 1px -1px 0 #ff0;
+    }
+}
+
+@keyframes ring{
+    0%{
+        list-style-image: url(fnt/ring1.svg);
+    }
+    25%{
+        list-style-image: url(fnt/ring2.svg);
+    }
+    50%{
+        list-style-image: url(fnt/ring3.svg);
+    }
+    75%{
+        list-style-image: url(fnt/ring4.svg);
+    }
+    100%{
+        list-style-image: url(fnt/ring1.svg);
+    }
+    
+}
+
+.ring{
+    animation-duration: 0.6s;
+    animation-name: ring;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite; 
+}
+
+
+.stroke {
+    animation-duration: 3s;
+    animation-name: stroke;
+    animation-timing-function: steps(4, end);
+    animation-iteration-count: infinite;
+
+}

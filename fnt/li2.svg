@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- generated at drububu.com  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" preserveAspectRatio="xMinYMin meet" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="20px" height="20px" viewBox="0 0 20 20">
+<path d="M0 0h1v1h-1v-1z" fill="rgb(255,127,33)"/>
+<path d="M1 0h8v3h-9v-2h1v-1z" fill="rgb(255,123,0)"/>
+<path d="M9 0h2v3h9v1h-3v4h3v1h-9v-1h5v-4h-10v4h-1v1h-5v-1h4v-4h-4v-1h9v-3z" fill="rgb(9,9,9)"/>
+<path d="M11 0h9v3h-9v-3z" fill="rgb(255,123,0)"/>
+<path d="M0 4h4v4h-4v-2h1v-1h-1v-1z" fill="rgb(255,123,0)"/>
+<path d="M6 4h9v4h-9v-4z" fill="rgb(255,123,0)"/>
+<path d="M15 4h1v4h-1v-4z" fill="rgb(0,3,9)"/>
+<path d="M17 4h3v4h-3v-4z" fill="rgb(255,123,0)"/>
+<path d="M0 5h1v1h-1v-1z" fill="rgb(255,121,8)"/>
+<path d="M5 8h1v1h-1v-1z" fill="rgb(0,2,9)"/>
+<path d="M6 8h2v1h-2v-1z" fill="rgb(0,3,9)"/>
+<path d="M8 8h1v1h-1v-1z" fill="rgb(0,2,9)"/>
+<path d="M9 8h1v1h-1v-1z" fill="rgb(20,12,8)"/>
+<path d="M10 8h1v1h-1v-1z" fill="rgb(21,14,8)"/>
+<path d="M0 9h9v4h-9v-4z" fill="rgb(255,123,0)"/>
+<path d="M9 9h2v4h9v2h-4v4h4v1h-20v-1h4v-4h-4v-2h9v-4z" fill="rgb(9,9,9)"/>
+<path d="M11 9h9v4h-9v-4z" fill="rgb(255,123,0)"/>
+<path d="M0 15h1v1h-1v-1z" fill="rgb(255,130,4)"/>
+<path d="M1 15h2v1h1v3h-4v-3h1v-1z" fill="rgb(255,123,0)"/>
+<path d="M3 15h1v1h-1v-1z" fill="rgb(255,115,0)"/>
+<path d="M6 15h7v1h1v3h-8v-4z" fill="rgb(255,123,0)"/>
+<path d="M13 15h1v1h-1v-1z" fill="rgb(255,137,0)"/>
+<path d="M16 15h4v4h-4v-4z" fill="rgb(255,123,0)"/>
+<path d="M9 17h2v1h-2v-1z" fill="rgb(255,121,0)"/>
+</svg>

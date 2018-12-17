@@ -1,0 +1,226 @@
+@import "icons.css";
+@import "fonts.css";
+@import "anim.css";
+@import "media.css";
+
+body {
+    background-image: url(fnt/c1.svg);
+}
+
+.layout {
+    background-color: #fff;
+    max-width: 960px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*
+ICON CLASSES:
+
+-gh: github
+-tw: twitter
+-fb: facebook
+-yt: instagram
+-heart/heartb: heart coloured/heart non coloured
+-star/starb: star coloured/star non coloured
+-like/likeb: like coloured/like non coloured
+
+FONT CLASSES:
+
+-bitone: bitone font
+-bitween: bitween font
+
+LIST CLASSES:
+
+-com: rainbow icon like commodore's logo
+-brick: brick block like super mario bros for nes
+
+
+*/
+
+.eightbit-btn {
+  background: #92cd41;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  font-size: 30px;
+  padding: 20px;
+  font-family: 'Press Start 2P', cursive;
+  text-decoration: none;
+  color: white;
+  box-shadow: inset -4px -4px 0px 0px #4aa52e;
+}
+.eightbit-btn:hover, .eightbit-btn:focus {
+  background: #76c442;
+  box-shadow: inset -6px -6px 0px 0px #4aa52e;
+}
+.eightbit-btn:active {
+  box-shadow: inset 4px 4px 0px 0px #4aa52e;
+}
+.eightbit-btn:before, .eightbit-btn:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  box-sizing: content-box;
+}
+.eightbit-btn:before {
+  top: -6px;
+  left: 0;
+  border-top: 6px black solid;
+  border-bottom: 6px black solid;
+}
+.eightbit-btn:after {
+  left: -6px;
+  top: 0;
+  border-left: 6px black solid;
+  border-right: 6px black solid;
+}
+.eightbit-btn--reset {
+  background: #e76e55;
+  box-shadow: inset -4px -4px 0px 0px #8c2022;
+}
+.eightbit-btn--reset:hover, .eightbit-btn--reset:focus {
+  background: #ce372b;
+  box-shadow: inset -6px -6px 0px 0px #8c2022;
+}
+.eightbit-btn--reset:active {
+  box-shadow: inset 4px 4px 0px 0px #8c2022;
+}
+.eightbit-btn--proceed {
+  background: #f7d51d;
+  box-shadow: inset -4px -4px 0px 0px #e59400;
+}
+.eightbit-btn--proceed:hover, .eightbit-btn--proceed:focus {
+  background: #f2c409;
+  box-shadow: inset -6px -6px 0px 0px #e59400;
+}
+.eightbit-btn--proceed:active {
+  box-shadow: inset 4px 4px 0px 0px #e59400;
+}
+
+
+
+
+.com {
+    list-style-image: url(fnt/li.svg);
+}
+
+.brick {
+    list-style-image: url(fnt/li2.svg);
+
+}
+
+.bitone {
+    font-family: Bitone;
+    letter-spacing: 2.5px;
+}
+
+
+.bitween {
+    font-family: Bitween;
+    letter-spacing: 1px;
+}
+
+.container {
+    margin: 15px 0 15px 0;
+    width: auto;
+    height: auto;
+    padding: 10px;
+}
+
+.tiled {
+    background-image: url(fnt/c1.svg);
+    background-repeat: repeat;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    border: 4px solid black;
+    border-radius: 20px 20px 20px 20px;
+}
+
+
+.cols-2 {
+    width: 50% !important;
+    float: left;
+}
+
+.border {
+    border: 2px double black;
+}
+
+.separatorA {
+    width: 100%;
+    height: 5px;
+    margin: 15px 0 15px 0;
+    border-top: 5px solid #9a134a;
+    background-color: #6f7b8c;
+    border-bottom: 5px solid #0e2169;
+}
+
+.separatorB {
+    width: 100%;
+    height: 5px;
+    margin: 15px 0 15px 0;
+    border-top: 5px solid #13579e;
+    background-color: #fff;
+    border-bottom: 5px solid #13579e;
+}
+
+.center {
+    text-align: center;
+}
+
+.center > ul {
+    display: inline-block;
+}
+
+.white {
+    color: #fff;
+}
+
+/*ul.center{
+    list-style-position: inside;
+    text-align: center;
+}*/
+
+/*SIMPLE GRID GRID*/
+.row {
+    width: auto;
+    display: flex;
+    margin: 10px 0 10px 0;
+}
+
+.col1 {
+    width: 100%;
+    padding: 25px 5px 25px 5px;
+    box-sizing: border-box;
+    border: 2px solid black;
+}
+
+.col2 {
+    width: 50%;
+    padding: 25px 5px 25px 5px;
+    box-sizing: border-box;
+    border: 2px solid black;
+}
+
+.col3 {
+    width: 33.333333%;
+    padding: 25px 5px 25px 5px;
+    box-sizing: border-box;
+    border: 2px solid black;
+}
+
+.col4 {
+    width: 25%;
+    height: auto;
+    padding: 25px 5px 25px 5px;
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+
+/*SIMPLE GRID*/
